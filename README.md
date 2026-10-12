@@ -46,6 +46,7 @@ Group project for COMP5216 Mobile Computing. Gamified wellbeing tracker built ar
 
 ## Elsewhere
 
+- [Portfolio](https://ajrs-dev.github.io/) — projects, write-ups and stack in one place
 - [LeetCode](https://leetcode.com/u/ajrs/) — 100 problems solved in Python, plus C# and JavaScript
 - [Project Euler](https://projecteuler.net/profile/AndrewStephenson.png)
 - [LinkedIn](https://linkedin.com/in/andrew-stephenson-4307bb403)
