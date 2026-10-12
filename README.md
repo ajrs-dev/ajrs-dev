@@ -2,7 +2,6 @@
 
 Developer working mainly in TypeScript and the React ecosystem. Currently completing a Master of Information Technology part-time at the University of Sydney, on top of a BSc in Computer Science and a BA in Japanese Studies.
 
-Open to part-time and casual development work.
 
 ## Projects
 
