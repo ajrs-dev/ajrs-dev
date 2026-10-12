@@ -32,10 +32,6 @@ Built with no frameworks or libraries — rendering, event binding and cart stat
 
 Monster-catching RPG in a single HTML file with no dependencies or build step. Tile-based overworld, random encounters, turn-based battles with type effectiveness, catching, XP and level-ups, and party management, all drawn on a canvas.
 
-**[Bakery Book](https://ajrs-dev.github.io/bakerybook/)** — Vanilla JavaScript · HTML · CSS
-
-Single-page recipe book with ten classic bakes, each with ingredients, method, timings and a photo. Content is data-driven and rendered client-side with no dependencies, with a print-friendly layout and licence credits for every Wikimedia Commons photo. [Source](https://github.com/ajrs-dev/bakerybook).
-
 ## Stack
 
 **Languages** — JavaScript, TypeScript, Python, SQL
