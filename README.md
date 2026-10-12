@@ -9,7 +9,7 @@ Developer working mainly in TypeScript and the React ecosystem. Currently comple
 
 League of Legends champion and player lookup. Browses all 173 champions on the live patch with filtering by class, kit, base stats and skins, and looks up any player's rank, champion mastery and recent matches across 17 regions. Built on the Riot Games API and Data Dragon CDN behind a documented caching layer that keeps requests inside Riot's rate limits, with a public API reference page.
 
-**[Missha's Bakery Book](https://ajrs-dev.github.io/bakerybook/)** — Vanilla JavaScript · HTML · CSS
+**[Bakery Book](https://ajrs-dev.github.io/bakerybook/)** — Vanilla JavaScript · HTML · CSS
 
 Single-page recipe book with ten classic bakes, each with ingredients, method, timings and a photo. Content is data-driven and rendered client-side with no dependencies, with a print-friendly layout and licence credits for every Wikimedia Commons photo. [Source](https://github.com/ajrs-dev/bakerybook).
 
