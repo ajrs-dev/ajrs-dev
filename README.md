@@ -8,6 +8,10 @@ Developer working mainly in TypeScript and the React ecosystem. Currently comple
 
 League of Legends champion and player lookup. Browses all 173 champions on the live patch with filtering by class, kit, base stats and skins, and looks up any player's rank, champion mastery and recent matches across 17 regions. Built on the Riot Games API and Data Dragon CDN behind a documented caching layer that keeps requests inside Riot's rate limits, with a public API reference page.
 
+**[Heartbeat](https://github.com/ajrs-dev/heartbeat)** — React · TypeScript · Node.js · Express · SQLite · Docker
+
+Uptime and latency monitoring service. A scheduler checks user-supplied URLs, records results, computes uptime and p95 latency over 24 hour, 7 day and 30 day windows, opens an incident after two consecutive failures, and pushes results to open dashboards over server-sent events, with public status pages. Because users choose the URLs the server fetches, it defends against server-side request forgery: URLs are validated on creation, resolved addresses are re-checked at connect time to stop DNS rebinding, and redirects are never followed. Also scrypt password hashing, hashed server-side sessions, rate limiting, 165 tests, CI and a Docker image.
+
 **[TaskFlow](https://taskflow-seven-ivory-67.vercel.app)** — React · TypeScript · Node.js · Express · SQLite · Vercel · [Source](https://github.com/ajrs-dev/taskflow)
 
 Full-stack Kanban task manager with boards, lists and drag-and-drop cards whose order is persisted. Bcrypt-hashed passwords and JWT sessions with protected routes on both the API and the front end, every request body validated with Zod before it reaches the database, backend integration tests with Vitest and Supertest, and GitHub Actions running typecheck, build and tests on every push. The same Express app runs as a local server or as a Vercel serverless function.
@@ -40,7 +44,7 @@ Group project for COMP5216 Mobile Computing. Gamified wellbeing tracker built ar
 
 **Databases** — MySQL, MongoDB, SQLite, Firebase
 
-**Tools** — Git, Vercel, Linux, Claude Code
+**Tools** — Git, GitHub Actions, Docker, Vercel, Linux, Claude Code
 
 **Also worked with** — C, C++, Ruby, PHP, C#/.NET, x86-64 and MIPS assembly
 
