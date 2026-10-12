@@ -8,7 +8,7 @@ Developer working mainly in TypeScript and the React ecosystem. Currently comple
 
 League of Legends champion and player lookup. Browses all 173 champions on the live patch with filtering by class, kit, base stats and skins, and looks up any player's rank, champion mastery and recent matches across 17 regions. Built on the Riot Games API and Data Dragon CDN behind a documented caching layer that keeps requests inside Riot's rate limits, with a public API reference page.
 
-**[Heartbeat](https://github.com/ajrs-dev/heartbeat)** — React · TypeScript · Node.js · Express · SQLite · Docker
+**[Heartbeat](https://github.com/ajrs-dev/heartbeat)** — React · TypeScript · Node.js · Express · SQLite · Docker · [Live demo](https://heartbeat-demo-ntod.onrender.com)
 
 Uptime and latency monitoring service. A scheduler checks user-supplied URLs, records results, computes uptime and p95 latency over 24 hour, 7 day and 30 day windows, opens an incident after two consecutive failures, and pushes results to open dashboards over server-sent events, with public status pages. Because users choose the URLs the server fetches, it defends against server-side request forgery: URLs are validated on creation, resolved addresses are re-checked at connect time to stop DNS rebinding, and redirects are never followed. Also scrypt password hashing, hashed server-side sessions, rate limiting, 165 tests, CI and a Docker image.
 
